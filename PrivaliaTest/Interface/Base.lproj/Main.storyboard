@@ -19,24 +19,39 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="3RA-B5-oME">
-                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                                <rect key="frame" x="0.0" y="120" width="375" height="547"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <connections>
                                     <outlet property="dataSource" destination="BYZ-38-t0r" id="Ugb-Il-JGn"/>
                                     <outlet property="delegate" destination="BYZ-38-t0r" id="Kkv-DO-vyX"/>
                                 </connections>
                             </tableView>
+                            <searchBar contentMode="redraw" translatesAutoresizingMaskIntoConstraints="NO" id="MZB-Rv-YmO">
+                                <rect key="frame" x="0.0" y="64" width="375" height="56"/>
+                                <textInputTraits key="textInputTraits"/>
+                                <connections>
+                                    <outlet property="delegate" destination="BYZ-38-t0r" id="3Lv-uw-gKi"/>
+                                </connections>
+                            </searchBar>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
-                            <constraint firstItem="3RA-B5-oME" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="2vS-qL-YLo"/>
+                            <constraint firstItem="3RA-B5-oME" firstAttribute="top" secondItem="MZB-Rv-YmO" secondAttribute="bottom" id="Cb2-hi-WZq"/>
                             <constraint firstItem="3RA-B5-oME" firstAttribute="bottom" secondItem="6Tk-OE-BBY" secondAttribute="bottom" id="ILP-0B-pVu"/>
                             <constraint firstItem="3RA-B5-oME" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="Lc7-li-hlp"/>
+                            <constraint firstItem="MZB-Rv-YmO" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="Ndd-jT-buy"/>
+                            <constraint firstItem="3RA-B5-oME" firstAttribute="top" secondItem="MZB-Rv-YmO" secondAttribute="bottom" id="UC8-7j-PVu"/>
+                            <constraint firstItem="MZB-Rv-YmO" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="UmR-2m-2Mk"/>
+                            <constraint firstItem="MZB-Rv-YmO" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="Wgm-Yp-kke"/>
                             <constraint firstItem="3RA-B5-oME" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="gys-Cn-uhl"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
                     <navigationItem key="navigationItem" id="VzL-aZ-t78"/>
+                    <connections>
+                        <outlet property="mySearchBar" destination="MZB-Rv-YmO" id="efq-JB-glO"/>
+                        <outlet property="myTableView" destination="3RA-B5-oME" id="9Wr-Jb-iKp"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>

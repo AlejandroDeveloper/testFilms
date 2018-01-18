@@ -9,5 +9,6 @@
 import Foundation
 
 protocol ListFilmView: class {
-    
+    func successResult()
+    func failureResult()
 }

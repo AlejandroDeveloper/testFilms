@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		65A4803D92E22BFD7ED7F766 /* Pods_PrivaliaTestTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FFE112104BBD866CFAE90FA5 /* Pods_PrivaliaTestTests.framework */; };
 		A9206FD52010B7D700B741A1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9206FD42010B7D700B741A1 /* AppDelegate.swift */; };
 		A9206FDA2010B7D700B741A1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A9206FD82010B7D700B741A1 /* Main.storyboard */; };
 		A9206FDC2010B7D700B741A1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A9206FDB2010B7D700B741A1 /* Assets.xcassets */; };
@@ -19,6 +20,9 @@
 		A920700D2010C78C00B741A1 /* ApiService.swift in Sources */ = {isa = PBXBuildFile; fileRef = A920700C2010C78C00B741A1 /* ApiService.swift */; };
 		A92070112010C90D00B741A1 /* ListCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A920700F2010C90D00B741A1 /* ListCell.swift */; };
 		A92070122010C90D00B741A1 /* ListCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = A92070102010C90D00B741A1 /* ListCell.xib */; };
+		A92070152010D36D00B741A1 /* Film.swift in Sources */ = {isa = PBXBuildFile; fileRef = A92070142010D36D00B741A1 /* Film.swift */; };
+		B7765B2CA6E8326456EDD3D6 /* Pods_PrivaliaTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F54862C779BD9B3BAE8D4904 /* Pods_PrivaliaTest.framework */; };
+		F2C08AA0F011C8CAC4C70401 /* Pods_PrivaliaTestUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 334B9735775C694856DF8713 /* Pods_PrivaliaTestUITests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,6 +43,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		334B9735775C694856DF8713 /* Pods_PrivaliaTestUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PrivaliaTestUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3E4F5B8A3CAD9DA5D33B3CCF /* Pods-PrivaliaTestUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PrivaliaTestUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-PrivaliaTestUITests/Pods-PrivaliaTestUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		4CEE88C4D84663AE62412E1D /* Pods-PrivaliaTestUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PrivaliaTestUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-PrivaliaTestUITests/Pods-PrivaliaTestUITests.release.xcconfig"; sourceTree = "<group>"; };
+		82C03586C52915AC28A43590 /* Pods-PrivaliaTest.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PrivaliaTest.release.xcconfig"; path = "Pods/Target Support Files/Pods-PrivaliaTest/Pods-PrivaliaTest.release.xcconfig"; sourceTree = "<group>"; };
+		9E0A4230C09631CCB0F278B1 /* Pods-PrivaliaTestTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PrivaliaTestTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-PrivaliaTestTests/Pods-PrivaliaTestTests.debug.xcconfig"; sourceTree = "<group>"; };
+		9E20C4ACD804564E45F2D3B5 /* Pods-PrivaliaTest.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PrivaliaTest.debug.xcconfig"; path = "Pods/Target Support Files/Pods-PrivaliaTest/Pods-PrivaliaTest.debug.xcconfig"; sourceTree = "<group>"; };
 		A9206FD12010B7D700B741A1 /* PrivaliaTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PrivaliaTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A9206FD42010B7D700B741A1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A9206FD92010B7D700B741A1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -57,6 +67,10 @@
 		A920700C2010C78C00B741A1 /* ApiService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApiService.swift; sourceTree = "<group>"; };
 		A920700F2010C90D00B741A1 /* ListCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListCell.swift; sourceTree = "<group>"; };
 		A92070102010C90D00B741A1 /* ListCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ListCell.xib; sourceTree = "<group>"; };
+		A92070142010D36D00B741A1 /* Film.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Film.swift; sourceTree = "<group>"; };
+		C8F1DC04D13124D003A0E430 /* Pods-PrivaliaTestTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PrivaliaTestTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-PrivaliaTestTests/Pods-PrivaliaTestTests.release.xcconfig"; sourceTree = "<group>"; };
+		F54862C779BD9B3BAE8D4904 /* Pods_PrivaliaTest.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PrivaliaTest.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FFE112104BBD866CFAE90FA5 /* Pods_PrivaliaTestTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PrivaliaTestTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -64,6 +78,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B7765B2CA6E8326456EDD3D6 /* Pods_PrivaliaTest.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -71,6 +86,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				65A4803D92E22BFD7ED7F766 /* Pods_PrivaliaTestTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -78,12 +94,32 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F2C08AA0F011C8CAC4C70401 /* Pods_PrivaliaTestUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2ABC3DFE9A70880D7F656FFB /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F54862C779BD9B3BAE8D4904 /* Pods_PrivaliaTest.framework */,
+				FFE112104BBD866CFAE90FA5 /* Pods_PrivaliaTestTests.framework */,
+				334B9735775C694856DF8713 /* Pods_PrivaliaTestUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A910844F2010ED0E00DA9EA4 /* cells */ = {
+			isa = PBXGroup;
+			children = (
+				A920700F2010C90D00B741A1 /* ListCell.swift */,
+				A92070102010C90D00B741A1 /* ListCell.xib */,
+			);
+			path = cells;
+			sourceTree = "<group>";
+		};
 		A9206FC82010B7D700B741A1 = {
 			isa = PBXGroup;
 			children = (
@@ -91,6 +127,8 @@
 				A9206FE82010B7D800B741A1 /* PrivaliaTestTests */,
 				A9206FF32010B7D800B741A1 /* PrivaliaTestUITests */,
 				A9206FD22010B7D700B741A1 /* Products */,
+				D5FB8DC9BF9C6127B0291D0C /* Pods */,
+				2ABC3DFE9A70880D7F656FFB /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -107,8 +145,8 @@
 		A9206FD32010B7D700B741A1 /* PrivaliaTest */ = {
 			isa = PBXGroup;
 			children = (
-				A920700E2010C8C100B741A1 /* Interface */,
 				A9206FD42010B7D700B741A1 /* AppDelegate.swift */,
+				A920700E2010C8C100B741A1 /* Interface */,
 				A92070092010C6FF00B741A1 /* Protocols */,
 				A92070042010BA6D00B741A1 /* Model */,
 				A92070032010BA6100B741A1 /* View */,
@@ -158,6 +196,7 @@
 			isa = PBXGroup;
 			children = (
 				A920700C2010C78C00B741A1 /* ApiService.swift */,
+				A92070132010D35C00B741A1 /* Objects */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -173,11 +212,31 @@
 		A920700E2010C8C100B741A1 /* Interface */ = {
 			isa = PBXGroup;
 			children = (
+				A910844F2010ED0E00DA9EA4 /* cells */,
 				A9206FD82010B7D700B741A1 /* Main.storyboard */,
-				A920700F2010C90D00B741A1 /* ListCell.swift */,
-				A92070102010C90D00B741A1 /* ListCell.xib */,
 			);
 			path = Interface;
+			sourceTree = "<group>";
+		};
+		A92070132010D35C00B741A1 /* Objects */ = {
+			isa = PBXGroup;
+			children = (
+				A92070142010D36D00B741A1 /* Film.swift */,
+			);
+			path = Objects;
+			sourceTree = "<group>";
+		};
+		D5FB8DC9BF9C6127B0291D0C /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				9E20C4ACD804564E45F2D3B5 /* Pods-PrivaliaTest.debug.xcconfig */,
+				82C03586C52915AC28A43590 /* Pods-PrivaliaTest.release.xcconfig */,
+				9E0A4230C09631CCB0F278B1 /* Pods-PrivaliaTestTests.debug.xcconfig */,
+				C8F1DC04D13124D003A0E430 /* Pods-PrivaliaTestTests.release.xcconfig */,
+				3E4F5B8A3CAD9DA5D33B3CCF /* Pods-PrivaliaTestUITests.debug.xcconfig */,
+				4CEE88C4D84663AE62412E1D /* Pods-PrivaliaTestUITests.release.xcconfig */,
+			);
+			name = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -187,9 +246,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = A9206FF92010B7D800B741A1 /* Build configuration list for PBXNativeTarget "PrivaliaTest" */;
 			buildPhases = (
+				ACD9266495EE59C8C9370448 /* [CP] Check Pods Manifest.lock */,
 				A9206FCD2010B7D700B741A1 /* Sources */,
 				A9206FCE2010B7D700B741A1 /* Frameworks */,
 				A9206FCF2010B7D700B741A1 /* Resources */,
+				5F139A78B036FCFB774330D0 /* [CP] Embed Pods Frameworks */,
+				9180D6108ACFADA8BDC13B4F /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -204,9 +266,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = A9206FFC2010B7D800B741A1 /* Build configuration list for PBXNativeTarget "PrivaliaTestTests" */;
 			buildPhases = (
+				2C651F638DD082207805449C /* [CP] Check Pods Manifest.lock */,
 				A9206FE12010B7D800B741A1 /* Sources */,
 				A9206FE22010B7D800B741A1 /* Frameworks */,
 				A9206FE32010B7D800B741A1 /* Resources */,
+				EA7F045E6BD047EC370F8EF5 /* [CP] Embed Pods Frameworks */,
+				6A2ECD62B2134F1708A24B70 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -222,9 +287,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = A9206FFF2010B7D800B741A1 /* Build configuration list for PBXNativeTarget "PrivaliaTestUITests" */;
 			buildPhases = (
+				33D1037C72D06CDACA403B57 /* [CP] Check Pods Manifest.lock */,
 				A9206FEC2010B7D800B741A1 /* Sources */,
 				A9206FED2010B7D800B741A1 /* Frameworks */,
 				A9206FEE2010B7D800B741A1 /* Resources */,
+				016850A0B51F8ECEE3C221CB /* [CP] Embed Pods Frameworks */,
+				A1C3337713B1D0D0CC179743 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -310,6 +378,144 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		016850A0B51F8ECEE3C221CB /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-PrivaliaTestUITests/Pods-PrivaliaTestUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		2C651F638DD082207805449C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		33D1037C72D06CDACA403B57 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		5F139A78B036FCFB774330D0 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-PrivaliaTest/Pods-PrivaliaTest-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6A2ECD62B2134F1708A24B70 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-PrivaliaTestTests/Pods-PrivaliaTestTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9180D6108ACFADA8BDC13B4F /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-PrivaliaTest/Pods-PrivaliaTest-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A1C3337713B1D0D0CC179743 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-PrivaliaTestUITests/Pods-PrivaliaTestUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		ACD9266495EE59C8C9370448 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		EA7F045E6BD047EC370F8EF5 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-PrivaliaTestTests/Pods-PrivaliaTestTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		A9206FCD2010B7D700B741A1 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -321,6 +527,7 @@
 				A92070112010C90D00B741A1 /* ListCell.swift in Sources */,
 				A9206FD52010B7D700B741A1 /* AppDelegate.swift in Sources */,
 				A92070082010C55F00B741A1 /* ListFilmPresenter.swift in Sources */,
+				A92070152010D36D00B741A1 /* Film.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -484,6 +691,7 @@
 		};
 		A9206FFA2010B7D800B741A1 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9E20C4ACD804564E45F2D3B5 /* Pods-PrivaliaTest.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -499,6 +707,7 @@
 		};
 		A9206FFB2010B7D800B741A1 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 82C03586C52915AC28A43590 /* Pods-PrivaliaTest.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -514,6 +723,7 @@
 		};
 		A9206FFD2010B7D800B741A1 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9E0A4230C09631CCB0F278B1 /* Pods-PrivaliaTestTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -531,6 +741,7 @@
 		};
 		A9206FFE2010B7D800B741A1 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C8F1DC04D13124D003A0E430 /* Pods-PrivaliaTestTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -548,6 +759,7 @@
 		};
 		A92070002010B7D800B741A1 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3E4F5B8A3CAD9DA5D33B3CCF /* Pods-PrivaliaTestUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -564,6 +776,7 @@
 		};
 		A92070012010B7D800B741A1 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4CEE88C4D84663AE62412E1D /* Pods-PrivaliaTestUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
