@@ -8,12 +8,17 @@
 
 /* Begin PBXBuildFile section */
 		A9206FD52010B7D700B741A1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9206FD42010B7D700B741A1 /* AppDelegate.swift */; };
-		A9206FD72010B7D700B741A1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9206FD62010B7D700B741A1 /* ViewController.swift */; };
 		A9206FDA2010B7D700B741A1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A9206FD82010B7D700B741A1 /* Main.storyboard */; };
 		A9206FDC2010B7D700B741A1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A9206FDB2010B7D700B741A1 /* Assets.xcassets */; };
 		A9206FDF2010B7D700B741A1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A9206FDD2010B7D700B741A1 /* LaunchScreen.storyboard */; };
 		A9206FEA2010B7D800B741A1 /* PrivaliaTestTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9206FE92010B7D800B741A1 /* PrivaliaTestTests.swift */; };
 		A9206FF52010B7D800B741A1 /* PrivaliaTestUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9206FF42010B7D800B741A1 /* PrivaliaTestUITests.swift */; };
+		A92070062010BA9F00B741A1 /* ListFilmsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A92070052010BA9F00B741A1 /* ListFilmsViewController.swift */; };
+		A92070082010C55F00B741A1 /* ListFilmPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = A92070072010C55F00B741A1 /* ListFilmPresenter.swift */; };
+		A920700B2010C72500B741A1 /* ListFilmView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A920700A2010C72500B741A1 /* ListFilmView.swift */; };
+		A920700D2010C78C00B741A1 /* ApiService.swift in Sources */ = {isa = PBXBuildFile; fileRef = A920700C2010C78C00B741A1 /* ApiService.swift */; };
+		A92070112010C90D00B741A1 /* ListCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A920700F2010C90D00B741A1 /* ListCell.swift */; };
+		A92070122010C90D00B741A1 /* ListCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = A92070102010C90D00B741A1 /* ListCell.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,7 +41,6 @@
 /* Begin PBXFileReference section */
 		A9206FD12010B7D700B741A1 /* PrivaliaTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PrivaliaTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A9206FD42010B7D700B741A1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		A9206FD62010B7D700B741A1 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		A9206FD92010B7D700B741A1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		A9206FDB2010B7D700B741A1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A9206FDE2010B7D700B741A1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -47,6 +51,12 @@
 		A9206FF02010B7D800B741A1 /* PrivaliaTestUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PrivaliaTestUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A9206FF42010B7D800B741A1 /* PrivaliaTestUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrivaliaTestUITests.swift; sourceTree = "<group>"; };
 		A9206FF62010B7D800B741A1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A92070052010BA9F00B741A1 /* ListFilmsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListFilmsViewController.swift; sourceTree = "<group>"; };
+		A92070072010C55F00B741A1 /* ListFilmPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListFilmPresenter.swift; sourceTree = "<group>"; };
+		A920700A2010C72500B741A1 /* ListFilmView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListFilmView.swift; sourceTree = "<group>"; };
+		A920700C2010C78C00B741A1 /* ApiService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApiService.swift; sourceTree = "<group>"; };
+		A920700F2010C90D00B741A1 /* ListCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListCell.swift; sourceTree = "<group>"; };
+		A92070102010C90D00B741A1 /* ListCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ListCell.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,9 +107,12 @@
 		A9206FD32010B7D700B741A1 /* PrivaliaTest */ = {
 			isa = PBXGroup;
 			children = (
+				A920700E2010C8C100B741A1 /* Interface */,
 				A9206FD42010B7D700B741A1 /* AppDelegate.swift */,
-				A9206FD62010B7D700B741A1 /* ViewController.swift */,
-				A9206FD82010B7D700B741A1 /* Main.storyboard */,
+				A92070092010C6FF00B741A1 /* Protocols */,
+				A92070042010BA6D00B741A1 /* Model */,
+				A92070032010BA6100B741A1 /* View */,
+				A92070022010BA5500B741A1 /* Presenter */,
 				A9206FDB2010B7D700B741A1 /* Assets.xcassets */,
 				A9206FDD2010B7D700B741A1 /* LaunchScreen.storyboard */,
 				A9206FE02010B7D700B741A1 /* Info.plist */,
@@ -123,6 +136,48 @@
 				A9206FF62010B7D800B741A1 /* Info.plist */,
 			);
 			path = PrivaliaTestUITests;
+			sourceTree = "<group>";
+		};
+		A92070022010BA5500B741A1 /* Presenter */ = {
+			isa = PBXGroup;
+			children = (
+				A92070072010C55F00B741A1 /* ListFilmPresenter.swift */,
+			);
+			path = Presenter;
+			sourceTree = "<group>";
+		};
+		A92070032010BA6100B741A1 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				A92070052010BA9F00B741A1 /* ListFilmsViewController.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		A92070042010BA6D00B741A1 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				A920700C2010C78C00B741A1 /* ApiService.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		A92070092010C6FF00B741A1 /* Protocols */ = {
+			isa = PBXGroup;
+			children = (
+				A920700A2010C72500B741A1 /* ListFilmView.swift */,
+			);
+			path = Protocols;
+			sourceTree = "<group>";
+		};
+		A920700E2010C8C100B741A1 /* Interface */ = {
+			isa = PBXGroup;
+			children = (
+				A9206FD82010B7D700B741A1 /* Main.storyboard */,
+				A920700F2010C90D00B741A1 /* ListCell.swift */,
+				A92070102010C90D00B741A1 /* ListCell.xib */,
+			);
+			path = Interface;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -233,6 +288,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				A9206FDF2010B7D700B741A1 /* LaunchScreen.storyboard in Resources */,
+				A92070122010C90D00B741A1 /* ListCell.xib in Resources */,
 				A9206FDC2010B7D700B741A1 /* Assets.xcassets in Resources */,
 				A9206FDA2010B7D700B741A1 /* Main.storyboard in Resources */,
 			);
@@ -259,8 +315,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A9206FD72010B7D700B741A1 /* ViewController.swift in Sources */,
+				A920700B2010C72500B741A1 /* ListFilmView.swift in Sources */,
+				A920700D2010C78C00B741A1 /* ApiService.swift in Sources */,
+				A92070062010BA9F00B741A1 /* ListFilmsViewController.swift in Sources */,
+				A92070112010C90D00B741A1 /* ListCell.swift in Sources */,
 				A9206FD52010B7D700B741A1 /* AppDelegate.swift in Sources */,
+				A92070082010C55F00B741A1 /* ListFilmPresenter.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -433,7 +493,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = Alejandro.PrivaliaTest;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -448,7 +508,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = Alejandro.PrivaliaTest;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
