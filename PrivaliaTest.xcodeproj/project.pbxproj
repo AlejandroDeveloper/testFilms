@@ -12,7 +12,6 @@
 		A9206FDA2010B7D700B741A1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A9206FD82010B7D700B741A1 /* Main.storyboard */; };
 		A9206FDC2010B7D700B741A1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A9206FDB2010B7D700B741A1 /* Assets.xcassets */; };
 		A9206FDF2010B7D700B741A1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A9206FDD2010B7D700B741A1 /* LaunchScreen.storyboard */; };
-		A9206FEA2010B7D800B741A1 /* PrivaliaTestTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9206FE92010B7D800B741A1 /* PrivaliaTestTests.swift */; };
 		A9206FF52010B7D800B741A1 /* PrivaliaTestUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9206FF42010B7D800B741A1 /* PrivaliaTestUITests.swift */; };
 		A92070062010BA9F00B741A1 /* ListFilmsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A92070052010BA9F00B741A1 /* ListFilmsViewController.swift */; };
 		A92070082010C55F00B741A1 /* ListFilmPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = A92070072010C55F00B741A1 /* ListFilmPresenter.swift */; };
@@ -21,6 +20,9 @@
 		A92070112010C90D00B741A1 /* ListCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A920700F2010C90D00B741A1 /* ListCell.swift */; };
 		A92070122010C90D00B741A1 /* ListCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = A92070102010C90D00B741A1 /* ListCell.xib */; };
 		A92070152010D36D00B741A1 /* Film.swift in Sources */ = {isa = PBXBuildFile; fileRef = A92070142010D36D00B741A1 /* Film.swift */; };
+		A96AA6F12012114E00AF66C0 /* ApiMock.swift in Sources */ = {isa = PBXBuildFile; fileRef = A96AA6F02012114E00AF66C0 /* ApiMock.swift */; };
+		A96AA6F7201214DD00AF66C0 /* ListFilmMock.swift in Sources */ = {isa = PBXBuildFile; fileRef = A96AA6F6201214DD00AF66C0 /* ListFilmMock.swift */; };
+		A96AA6F9201215F200AF66C0 /* TestList.swift in Sources */ = {isa = PBXBuildFile; fileRef = A96AA6F8201215F200AF66C0 /* TestList.swift */; };
 		B7765B2CA6E8326456EDD3D6 /* Pods_PrivaliaTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F54862C779BD9B3BAE8D4904 /* Pods_PrivaliaTest.framework */; };
 		F2C08AA0F011C8CAC4C70401 /* Pods_PrivaliaTestUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 334B9735775C694856DF8713 /* Pods_PrivaliaTestUITests.framework */; };
 /* End PBXBuildFile section */
@@ -56,7 +58,6 @@
 		A9206FDE2010B7D700B741A1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A9206FE02010B7D700B741A1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A9206FE52010B7D800B741A1 /* PrivaliaTestTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PrivaliaTestTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		A9206FE92010B7D800B741A1 /* PrivaliaTestTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrivaliaTestTests.swift; sourceTree = "<group>"; };
 		A9206FEB2010B7D800B741A1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A9206FF02010B7D800B741A1 /* PrivaliaTestUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PrivaliaTestUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A9206FF42010B7D800B741A1 /* PrivaliaTestUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrivaliaTestUITests.swift; sourceTree = "<group>"; };
@@ -68,6 +69,9 @@
 		A920700F2010C90D00B741A1 /* ListCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListCell.swift; sourceTree = "<group>"; };
 		A92070102010C90D00B741A1 /* ListCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ListCell.xib; sourceTree = "<group>"; };
 		A92070142010D36D00B741A1 /* Film.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Film.swift; sourceTree = "<group>"; };
+		A96AA6F02012114E00AF66C0 /* ApiMock.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApiMock.swift; sourceTree = "<group>"; };
+		A96AA6F6201214DD00AF66C0 /* ListFilmMock.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListFilmMock.swift; sourceTree = "<group>"; };
+		A96AA6F8201215F200AF66C0 /* TestList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestList.swift; sourceTree = "<group>"; };
 		C8F1DC04D13124D003A0E430 /* Pods-PrivaliaTestTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PrivaliaTestTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-PrivaliaTestTests/Pods-PrivaliaTestTests.release.xcconfig"; sourceTree = "<group>"; };
 		F54862C779BD9B3BAE8D4904 /* Pods_PrivaliaTest.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PrivaliaTest.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		FFE112104BBD866CFAE90FA5 /* Pods_PrivaliaTestTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PrivaliaTestTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -161,7 +165,8 @@
 		A9206FE82010B7D800B741A1 /* PrivaliaTestTests */ = {
 			isa = PBXGroup;
 			children = (
-				A9206FE92010B7D800B741A1 /* PrivaliaTestTests.swift */,
+				A96AA6EF2012113A00AF66C0 /* Mock */,
+				A96AA6F8201215F200AF66C0 /* TestList.swift */,
 				A9206FEB2010B7D800B741A1 /* Info.plist */,
 			);
 			path = PrivaliaTestTests;
@@ -224,6 +229,15 @@
 				A92070142010D36D00B741A1 /* Film.swift */,
 			);
 			path = Objects;
+			sourceTree = "<group>";
+		};
+		A96AA6EF2012113A00AF66C0 /* Mock */ = {
+			isa = PBXGroup;
+			children = (
+				A96AA6F02012114E00AF66C0 /* ApiMock.swift */,
+				A96AA6F6201214DD00AF66C0 /* ListFilmMock.swift */,
+			);
+			path = Mock;
 			sourceTree = "<group>";
 		};
 		D5FB8DC9BF9C6127B0291D0C /* Pods */ = {
@@ -535,7 +549,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A9206FEA2010B7D800B741A1 /* PrivaliaTestTests.swift in Sources */,
+				A96AA6F9201215F200AF66C0 /* TestList.swift in Sources */,
+				A96AA6F7201214DD00AF66C0 /* ListFilmMock.swift in Sources */,
+				A96AA6F12012114E00AF66C0 /* ApiMock.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -15,7 +15,9 @@ class ListFilmsViewController: UIViewController {
     @IBOutlet var myTableView: UITableView!
     @IBOutlet var mySearchBar: UISearchBar!
     
-    private let presenter = ListFilmPresenter()
+    private let presenter = ListFilmPresenter(apiService:ApiService())
+    private var isSearching = false
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         presenter.attachView(view: self)
@@ -41,7 +43,7 @@ extension ListFilmsViewController : UITableViewDelegate,UITableViewDataSource {
     }
     
     internal func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-        return presenter.listItems.count
+        return isSearching ? presenter.listItemsFilter.count : presenter.listItems.count
     }
     
     internal func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
@@ -52,7 +54,7 @@ extension ListFilmsViewController : UITableViewDelegate,UITableViewDataSource {
             cell = tableView.dequeueReusableCell(withIdentifier: identifier) as? ListCell
         }
         
-        let film = presenter.listItems[indexPath.row]
+        let film = isSearching ? presenter.listItemsFilter[indexPath.row] : presenter.listItems[indexPath.row]
         
         if let title = film.title {
             cell.lblTitle.text = title
@@ -78,8 +80,8 @@ extension ListFilmsViewController : UITableViewDelegate,UITableViewDataSource {
             cell.setImage(imageUrl: urlImage)
         }
         
-        //Pagination
-        if presenter.listItems.count - 2 == indexPath.row {
+        //Pagination , not call api if be a search text
+        if presenter.listItems.count - 2 == indexPath.row  && isSearching == false{
             presenter.getListToApi()
         }
         
@@ -96,25 +98,26 @@ extension ListFilmsViewController : UISearchBarDelegate {
     }
     
     func searchBar(_ searchBar: UISearchBar, textDidChange searchText: String) {
-//        if searchText == "" {
-//            isSearching = false
-//        } else {
-//            isSearching = true
-//            presenter.sortUserByText(text: searchText, items: usersItems)
-//        }
+        if searchText == "" {
+            isSearching = false
+            self.myTableView.reloadData()
+        } else {
+            isSearching = true
+            presenter.searchFilmForText(text: searchText)
+        }
     }
     
     func searchBarSearchButtonClicked(_ searchBar: UISearchBar) {
         self.mySearchBar.showsCancelButton = false
         self.view.endEditing(true)
-       // isSearching = false
+        isSearching = false
     }
     
     func searchBarCancelButtonClicked(_ searchBar: UISearchBar) {
         self.mySearchBar.text = ""
         self.mySearchBar.showsCancelButton = false
         self.mySearchBar.endEditing(true)
-       // isSearching = false
+        isSearching = false
         self.myTableView.reloadData()
     }
     

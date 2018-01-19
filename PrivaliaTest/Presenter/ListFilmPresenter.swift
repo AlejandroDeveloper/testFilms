@@ -14,6 +14,7 @@ class ListFilmPresenter {
     private var api : ApiService!
     private var pageActual = 0
     internal var listItems : Array<Film> = Array()
+    internal var listItemsFilter : Array<Film> = Array()
     
     func attachView(view:ListFilmView) {
         self.listView = view
@@ -23,8 +24,8 @@ class ListFilmPresenter {
         self.listView = nil
     }
     
-    init() {
-        api = ApiService()
+    init(apiService:ApiService) {
+        api = apiService
     }
     
     /**
@@ -50,6 +51,15 @@ class ListFilmPresenter {
                 self.listView?.hideSpinner()
             })
         }
+    }
+    
+    /**
+     Search film for title
+     - Parameter text: text for search in array original
+     */
+    func searchFilmForText(text:String) {
+        listItemsFilter = listItems.filter { ($0.title?.lowercased().contains(text.lowercased()))!}
+        self.listView?.successResult()
     }
     
 }
