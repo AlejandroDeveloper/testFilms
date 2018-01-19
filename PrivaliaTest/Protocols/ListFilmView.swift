@@ -11,4 +11,6 @@ import Foundation
 protocol ListFilmView: class {
     func successResult()
     func failureResult()
+    func showSpinner()
+    func hideSpinner()
 }

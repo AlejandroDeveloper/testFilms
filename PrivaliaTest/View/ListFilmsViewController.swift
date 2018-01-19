@@ -7,6 +7,7 @@
 //
 
 import UIKit
+import SwiftSpinner
 
 class ListFilmsViewController: UIViewController {
 
@@ -126,5 +127,13 @@ extension ListFilmsViewController : ListFilmView {
     
     func failureResult() {
         
+    }
+    
+    func showSpinner() {
+        SwiftSpinner.show("Loading...")
+    }
+    
+    func hideSpinner() {
+        SwiftSpinner.hide()
     }
 }
